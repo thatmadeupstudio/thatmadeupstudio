@@ -3,12 +3,11 @@
 }
 .glitch:before, .glitch:after {
     content: attr(data-text);
-    color: white;
+    color: #f9c55d;
     mix-blend-mode: lighten;
     position: absolute;
     top: 0;
     width: 100%;
-    background: black;
     clip: rect(0, 0, 0, 0);
 }
 .glitch:before {
