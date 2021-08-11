@@ -1,11 +1,11 @@
 .glitch {
 position: relative;
-color: white;
-mix-blend-mode: lighten;
 
 &:before,
 &:after {
     content: attr(data-text);
+    color: white;
+    mix-blend-mode: lighten;
     position: absolute;
     top: 0;
     width: 100%;
